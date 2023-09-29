@@ -16,7 +16,7 @@ error_reporting(E_ERROR | E_WARNING | E_PARSE);
 </head>
 
 <body>
-  <h1>Dates clés</h1>
+  <h1>Titre</h1>
   <?php
   // Chemin vers le fichier JSON
   $cheminFichierJSON = 'include/datasV2.json';
