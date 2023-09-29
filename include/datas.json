@@ -13,10 +13,6 @@
                 "1": [
                     "https://www.sudouest",
                     "Format long"
-                ],
-                "2": [
-                    "https://www.sudouestwww.sudouest",
-                    "En savoir plus"
                 ]
             }
         ],
@@ -27,7 +23,7 @@
         "Date": "06 février 2023",
         "Victime": "Laurence",
         "Ville": "Gujan (33)",
-        "Resume": "Un texte court qui s'affichera dans la chronologie pour décrire les circonstances du féminicide et donner des indications sur le portrait de la victime.",
+        "Resume": "Un texte court qui s'affichera dans la chronologie pour décrire les circonstances du féminicide et donner des indications sur le portrait de la victime. Un texte court qui s'affichera dans la chronologie pour décrire les circonstances du féminicide et donner des indications sur le portrait de la victime.",
         "Lien": [
             {
                 "0": [
@@ -43,15 +39,15 @@
         "Date": "06 février 2023",
         "Victime": "Pasdeloup",
         "Ville": "Gujan (33)",
-        "Resume": "Un texte court qui s'affichera dans la chronologie pour décrire les circonstances du féminicide et donner des indications sur le portrait de la victime.",
+        "Resume": "Un texte court qui s'affichera dans la chronologie pour décrire les circonstances du féminicide et donner des indications sur le portrait de la victime. Un texte court qui s'affichera dans la chronologie pour décrire les circonstances du féminicide et donner des indications sur le portrait de la victime.",
         "Lien": [
             {
                 "0": [
-                    "https://www.sudouest",
+                    "https://www.sudouest.fr",
                     "Format long"
                 ],
                 "1": [
-                    "https://www.sudouest",
+                    "https://www.google.com",
                     "Format long"
                 ]
             }

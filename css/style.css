@@ -13,9 +13,11 @@ main {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+
 a {
   display: block;
 }
+
 .card {
   width: 320px;
   height: 400px;
@@ -27,6 +29,7 @@ a {
   box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
   margin-top: 20px;
 }
+
 .card img {
   position: absolute;
   object-fit: cover;
@@ -34,25 +37,29 @@ a {
   height: 100%;
   top: 0;
   left: 0;
-  opacity: 0.9;
+  opacity: 1;
   transition: opacity 0.2s ease-out;
 }
-.card h2 {
+
+.card .x {
   position: absolute;
-  inset: auto auto 20px 20px;
+  inset: auto auto 20px 10px;
   margin: 0;
   transition: inset 0.3s 0.3s ease-out;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: normal;
   text-transform: uppercase;
 }
-.card p, .card a {
+
+.card p,
+.card a {
   position: relative;
   opacity: 0;
   /* max-width: 80%; */
   transition: opacity 0.3s ease-out;
   margin-bottom: 16px;
 }
+
 /* .card p {
   inset: auto auto -70px 30px
 } */
@@ -62,14 +69,18 @@ a {
   text-decoration: none;
   margin: 10px auto;
 }
-.card:hover h2 {
-  inset: auto auto 310px 20px;
+
+.card:hover .x {
+  inset: auto auto 300px 10px;
   transition: inset 0.3s ease-out;
 }
-.card:hover p, .card:hover a {
+
+.card:hover p,
+.card:hover a {
   opacity: 1;
   transition: opacity 0.5s 0.1s ease-in;
 }
+
 .card:hover img {
   transition: opacity 0.3s ease-in;
   opacity: 1;
@@ -79,11 +90,11 @@ a {
   vertical-align: middle;
 }
 
-section{
+section {
   display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 
@@ -102,7 +113,7 @@ h2 {
   font-size: 24px;
   line-height: 25px;
   font-weight: 300;
-  margin: 0px 0 0px 0px;
+  margin: 5px 0px 0px 0px;
   color: white;
   text-align: left;
 }
@@ -110,11 +121,40 @@ h2 {
 h3 {
   font-family: 'Oswald', sans-serif;
   font-size: 17px;
-  /* line-height: 25px; */
   font-weight: 300;
-  margin: 0px 0 0px 0px;
+  margin: 5px 0px 0px 0px;
   color: white;
+  text-align: left;
 }
+
+.icon-label-disc {
+  transition: fill .3s;
+  fill: #d42e1a;
+}
+
+
+.pictoDossier {
+  width: 40px;
+  height: 40px;
+  background-image: url(../images/pictoDossier.svg);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 1em;
+  top: 1em;
+}
+
+mark {
+  background-color: black;
+  color: white;
+  padding: 0px 7px;
+}
+
+/* 
+svg {
+  width: 50px;
+  height: 50px;
+} */
 
 body {
   /* background-color: rgb(97, 70, 70); */
@@ -130,9 +170,11 @@ body {
 
 p {
   color: #ffffff;
-  margin: 5px 0 5px 0;
+  padding: 10px 20px;
   font-family: 'Roboto', sans-serif;
   background-color: #00000075;
+  height: 170px;
+  overflow: hidden;
 }
 
 sup {
